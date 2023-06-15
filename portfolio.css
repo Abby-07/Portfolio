@@ -1,0 +1,110 @@
+body
+{
+    background-color:#d593f7 ;
+}
+#showcase
+{
+    border:2px solid white;
+    background-color:rgb(250, 221, 246);
+    border-radius:10px;
+    margin:20px;
+}
+a
+{
+    text-decoration:none;
+    color:Black;
+    font-family:cursive;
+    font-size:20px;
+}
+ul
+{
+    display:inline;
+    width:20px;
+    height:2px;
+}
+li
+{
+    display:inline-block;
+    float:left;
+    padding:10px;
+    text-decoration:none;
+   
+}
+li:hover
+{
+   border:2px solid black;
+   background-color:white ;
+   text-align:center;
+}
+#showcase li
+{
+    border-top-left-radius:10px;
+    border-bottom-right-radius: 10px;
+}
+#one
+{
+    text-align: left;
+    padding-top:50px;
+    padding-left:30px;
+    font-family: 'Yatra One', cursive;
+    font-size:4rem;
+    margin-top:20px;
+    margin-bottom: 0;
+    background-color: rgb(250, 221, 246);
+}
+#two
+{
+    padding-left:30px;
+    text-align:left;
+    font-family: cursive ;
+    font-size:1rem;
+    margin-bottom:110px;
+    margin-right:200px;
+    background-color: rgb(250, 221, 246);
+}
+img
+{
+    width: 50%;
+    height:500px;
+    left: 0px;
+    float:right;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+img:hover
+{ 
+   transform: scale(1.5);
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-github {
+    height: 05px;
+    width: 05px;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Twitter */
+  .fa-linkedin {
+    height: 05px;
+    width: 05px;
+    color: rgb(0, 0, 0);
+  }
+  .fa-instagram {
+    height: 05px;
+    width: 05px;
+    color: rgb(8, 8, 8);
+  }
